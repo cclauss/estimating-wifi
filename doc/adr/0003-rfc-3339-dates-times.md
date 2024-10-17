@@ -44,7 +44,7 @@ Saving Time changes (periodic or legislative).
 ## Decision
 
 RFC-3339 has been chosen to represent dates and times which are to be
-represented according to Coordinated Univeral Time (UTC).
+represented according to Coordinated Universal Time (UTC).
 
 ## Consequences
 

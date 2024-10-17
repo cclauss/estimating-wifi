@@ -46,7 +46,7 @@ pre-commit's git hooks:
 pre-commit install
 ```
 
-This sould only have to be performed once.
+This should only have to be performed once.
 
 More information is available on the [pre-commit website](https://pre-commit.com/#3-install-the-git-hook-scripts).
 

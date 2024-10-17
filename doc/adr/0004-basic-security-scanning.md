@@ -10,11 +10,11 @@ Proposed
 
 We need to add basic automated security scanning for the PiSpots code.
 
-For Phase 3 we need security scanning which will have automated tooling that scans our code, containers, DB, etc. for the most common security concerns, dependency updates, etc. Based on the reserch we should have two good SAST (static aplication security testing) and two good DAST (dynamic application security testing) tools.
+For Phase 3 we need security scanning which will have automated tooling that scans our code, containers, DB, etc. for the most common security concerns, dependency updates, etc. Based on the research we should have two good SAST (static application security testing) and two good DAST (dynamic application security testing) tools.
 Code scanning should include :
     - looking for vulnerabilities in the source code
-    - looking for bad/unsafe variabels
-    - looking for vulnerable dependancies
+    - looking for bad/unsafe variables
+    - looking for vulnerable dependencies
     - input validation
     - execution control analysis
     - API scanning
@@ -30,4 +30,4 @@ We are going to use tools that are supported in other GSA applications for Phase
 
 ## Consequences
 
-A license for snyk.io needs to be aquired. MegaLinter needs to be updated with any new SAST tools and checked for conflicts.
+A license for snyk.io needs to be acquired. MegaLinter needs to be updated with any new SAST tools and checked for conflicts.

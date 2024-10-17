@@ -12,7 +12,7 @@ The authentication process is for preventing an unauthorized user or device from
 
 Without authentication a requester sends a GET or POST to the API and then the API passes the request to the database to process.
 
-While this is good for a private system, it is not safe for a public system so it requires the implementation of authentication using a method to authenticate the requestor.
+While this is good for a private system, it is not safe for a public system so it requires the implementation of authentication using a method to authenticate the requester.
 
 ## Decision
 

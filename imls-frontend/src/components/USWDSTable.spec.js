@@ -14,7 +14,7 @@ describe("USWDSUSWDSTable", () => {
     expect(wrapper.find("caption").text()).toEqual("New caption");
   });
 
-  it("should render the specificed number of table rows and columns", () => {
+  it("should render the specified number of table rows and columns", () => {
     const wrapper = mount(USWDSTable, {
       props: {
         rows: [

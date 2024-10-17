@@ -64,7 +64,7 @@ You will need to create a new database connection. The connection parameters wil
       [22,23,23,27,26,21,23,37,44,50,66,75,75,75,70,88,88,86,70,30,25,25,25,25]
 
   - bin_devices_over_time
-    - `curl “http://localhost:3000/rpc/{function_or_sp_name}?_start={DATE variable}&_fscs_id={TEXT variable}&direction={BOOL varialbe}&_days={INT variable}“`
+    - `curl “http://localhost:3000/rpc/{function_or_sp_name}?_start={DATE variable}&_fscs_id={TEXT variable}&direction={BOOL variable}&_days={INT variable}“`
     - EXAMPLE:
       `curl "http://localhost:3000/rpc/bin_devices_over_time?_start=2022-05-10&_fscs_id=AA0003-001&_direction=true&_days=2"`
     - Returns an array of INTs (device counts per hour) starting at 12 AM EDT, length 24, for Date+1 Day
@@ -72,7 +72,7 @@ You will need to create a new database connection. The connection parameters wil
           [[12,13,13,13,13,13,17,17,15,16,21,22,20,23,20,16,18,21,21,20,20,26,21,21],[26,26,26,25,24,25,25,24,23,27,21,20,18,19,23,17,20,15,18,20,18,15,15,14]]
 
   - update_presence
-    - `curl “http://localhost:3000/rpc/update_presence?_start={TIMESTAMPTZ variable}&_end={TIMESTAMPTZ variable}_fscs_id={CHAR(16) variable}&_sensor={INT varialbe}&_manufacture={INT variable}“`
+    - `curl “http://localhost:3000/rpc/update_presence?_start={TIMESTAMPTZ variable}&_end={TIMESTAMPTZ variable}_fscs_id={CHAR(16) variable}&_sensor={INT variable}&_manufacture={INT variable}“`
     - EXAMPLE:
       `curl “http://localhost:3000/rpc/update_presence?_start=2022-09-12 02:21:50+00&_end=2022-09-12 04:21:50+00&_fscs_id=AA0003-001&_sensor=2&_manufacture=7”`
     - Returns sensor_id upon success requires valid JWT

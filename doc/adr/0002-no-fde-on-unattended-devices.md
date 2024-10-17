@@ -22,7 +22,7 @@ physical media backing the system become compromised.  If the key to unencrypt
 the media is present on the device (e.g., stored as a file), the storage
 may as well not be encrypted at all.
 
-As a result, using Full Disk Encrpytion (FDE) on a device required an
+As a result, using Full Disk Encryption (FDE) on a device required an
 operator to provide the key in order for the system to boot; without an
 operator providing the key, the system will not boot.  Therefore, devices
 must either be attended or they may not utilize Full Disk Encryption.  Since
